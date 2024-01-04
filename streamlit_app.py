@@ -274,7 +274,7 @@ def RunModelDecisionTree(df_test2):
     st.write("Predictions using wavelet features: " + str(prediction[0]))
     st.divider()
 
-st.title('Covid Detection - Signal Analysis 📊')
+st.title('Fentanyl Detection - Signal Analysis 📊')
 
 # Asking user to upload a excel or csv file
 uploaded_file = st.file_uploader("Choose a file", type=['csv', 'xlsx'])
