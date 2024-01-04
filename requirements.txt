@@ -1,0 +1,16 @@
+streamlit
+pandas
+numpy
+scipy
+scikit-learn
+torch
+torchvision
+torchaudio
+torch-utils
+tqdm
+matplotlib
+torchmetrics
+pytorch-lightning
+openpyxl
+pickle
+PyWavelets
