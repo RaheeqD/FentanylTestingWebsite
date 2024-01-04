@@ -12,5 +12,4 @@ matplotlib
 torchmetrics
 pytorch-lightning
 openpyxl
-pickle
 PyWavelets
