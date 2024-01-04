@@ -274,7 +274,7 @@ def RunModelDecisionTree(df_test2):
     st.write("Predicted Label using Wavelets Preprocessing & Decision Tree Classification is: " + str(prediction[0]))
     st.divider()
 
-st.title('Fentanyl Detection - Signal Analysis 📊')
+st.title('Fentanyl Detection - (LSTM) vs (Wavelets & Decision Tree) 📊')
 
 # Asking user to upload a excel or csv file
 uploaded_file = st.file_uploader("Choose a file", type=['csv', 'xlsx'])
