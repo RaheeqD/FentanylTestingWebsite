@@ -239,8 +239,8 @@ def RunModelDecisionTree(df_test2):
     # Load your data here (replace with your actual file paths)
     # Example:
     # Loading the data
-    true_data = pd.read_excel("DataSome\some_true_data.xlsx")
-    false_data = pd.read_excel("DataSome\some_false_data.xlsx")
+    true_data = pd.read_excel("DataSome/some_true_data.xlsx")
+    false_data = pd.read_excel("DataSome/some_false_data.xlsx")
 
     # Assuming true_data and false_data are loaded
 
