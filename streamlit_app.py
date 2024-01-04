@@ -271,7 +271,7 @@ def RunModelDecisionTree(df_test2):
     predictions_new_test = prepare_and_predict_features_corrected(wavelet_features_new_test, scaler_wavelet, decision_tree_model)
     # Reterive the predictions from the predictions_new_test dataframe
     prediction = predictions_new_test['predicted_label'].values
-    st.write("Predictions using wavelet features: " + str(prediction[0]))
+    st.write("Predicted Label using Wavelets Preprocessing & Decision Tree Classification is: " + str(prediction[0]))
     st.divider()
 
 st.title('Fentanyl Detection - Signal Analysis 📊')
